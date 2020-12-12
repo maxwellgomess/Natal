@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin-bottom: 100px;
+}
+
 
 p {
   color: grey;
@@ -118,7 +122,8 @@ em {
 /* third Section */
 
 #terceira-secao {
-  background-color: #aa0e1b;
+  background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/red-gradient-background-1542348556NTz.jpg");
+  background-size: 1360px 600px;;
   height: 600px;
   color: #fff;
   text-align: center;
