@@ -1,3 +1,5 @@
+/* tags */
+
 body {
   font-family: "Montserrat" sans-serif;
   text-align: center;
@@ -31,12 +33,6 @@ em {
 
 /* Sections */
 
-#primeira-secao {
-  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3fZH70smt8XGQGWaqI_Nu6xuOE11LmQHrzrO5E15MBfnMFAzt69DZxNMlLz_UvrrfR7JFomuLIhxZw8MaKNkdJSPvqw1P6Q-hIB1zb_8mAA5Dj9MbQ7Iz5HIXEg56v76Vi02jt_hqyGaNE6WlbkZAJO2Q=w1169-h657-no?authuser=0");
-  background-size: 1350px 600px;
-  color: #fff;
-}
-
 .white-section {
   background-color: #fff;
 }
@@ -67,16 +63,17 @@ em {
   width: 50px;
 }
 
-/* Title Section */
+/* First Section */
 
 #primeira-secao {
-  background-color: #ae0e1a;
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3fZH70smt8XGQGWaqI_Nu6xuOE11LmQHrzrO5E15MBfnMFAzt69DZxNMlLz_UvrrfR7JFomuLIhxZw8MaKNkdJSPvqw1P6Q-hIB1zb_8mAA5Dj9MbQ7Iz5HIXEg56v76Vi02jt_hqyGaNE6WlbkZAJO2Q=w1169-h657-no?authuser=0");
+  background-size: 1350px 600px;
   color: #fff;
   text-align: left;
 }
 
 
-/* Features Section */
+/* Second Section */
 
 #segunda-secao {
   position: relative;
@@ -118,7 +115,7 @@ em {
   color: #ff4c68;
 }
 
-/* Testimonial Section */
+/* third Section */
 
 #terceira-secao {
   background-color: #aa0e1b;
@@ -149,7 +146,7 @@ em {
   font-size: 1.2rem;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 991px) {
 
   #primeira-secao {
     text-align: center;
@@ -162,9 +159,6 @@ em {
   video {
     width: 700px;
   }
-}
-
-@media (max-width: 980px) {
 
   .navbar-brand {
     font-family: "Ubuntu";
@@ -214,6 +208,8 @@ em {
     height: 700px;
   }
 
-
+  body {
+    background-repeat: no-repeat;
+  }
 
 }
