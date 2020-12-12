@@ -140,6 +140,11 @@ em {
   margin: 20px;
 }
 
+.carousel-control-prev, .carousel-control-next {
+  position:fixed;
+  top: 1150px;
+}
+
 /* Footer Section */
 
 
