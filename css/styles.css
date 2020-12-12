@@ -153,16 +153,28 @@ em {
 
 @media (max-width: 991px) {
 
-  #primeira-secao {
-    text-align: center;
-  }
-
-  .logowiz {
-    width: 700px;
+  body {
+    background-repeat: no-repeat;
   }
 
   video {
     width: 700px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  em {
+    font-size: 1.7rem;
+  }
+
+  #primeira-secao {
+    text-align: center;
+  }
+
+  #terceira-secao {
+    height: 700px;
+    background-size: 1360px 700px;
   }
 
   .navbar-brand {
@@ -171,15 +183,15 @@ em {
     font-weight: bold;
   }
 
-  .copyright {
+  .btn {
     font-size: 2rem;
+  }
+
+  .logowiz {
+    width: 700px;
   }
 
   .feature-title {
-    font-size: 2rem;
-  }
-
-  p {
     font-size: 2rem;
   }
 
@@ -205,17 +217,7 @@ em {
     margin: 20px;
   }
 
-  em {
-    font-size: 1.7rem;
+  .copyright {
+    font-size: 2rem;
   }
-
-  #terceira-secao {
-    height: 700px;
-    background-size: 1360px 700px;
-  }
-
-  body {
-    background-repeat: no-repeat;
-  }
-
 }
