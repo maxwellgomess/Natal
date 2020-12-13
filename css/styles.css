@@ -1,5 +1,235 @@
+/* tags */
+
+body {
+  font-family: "Montserrat" sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 100px;
+}
+
+
+p {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+video {
+  width: 500px;
+}
+
+em {
+  font-size: 1.2rem;
+}
+
+/* Headings */
+
+.logowiz {
+  width: 400px;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 15% 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat" sans-serif;
+}
+
+.navbar-toggler-icon {
+  height: 50px;
+  width: 50px;
+}
+
+/* First Section */
+
+#primeira-secao {
+  background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3fZH70smt8XGQGWaqI_Nu6xuOE11LmQHrzrO5E15MBfnMFAzt69DZxNMlLz_UvrrfR7JFomuLIhxZw8MaKNkdJSPvqw1P6Q-hIB1zb_8mAA5Dj9MbQ7Iz5HIXEg56v76Vi02jt_hqyGaNE6WlbkZAJO2Q=w1169-h657-no?authuser=0");
+  background-size: 1350px 600px;
+  color: #fff;
+  text-align: left;
+}
+
+
+/* Second Section */
+
+#segunda-secao {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  margin: 0;
+}
+
+.icon-face {
+  color: #3b5998;
+  margin-bottom: 1rem;
+}
+
+.icon-linkedin {
+  color: #0e76a8;
+  margin-bottom: 1rem;
+}
+
+.icon-insta {
+  color: #98184c;
+  margin-bottom: 1rem;
+}
+
+.icon-email {
+  color: #e5cf82;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* third Section */
+
+#terceira-secao {
+  background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/red-gradient-background-1542348556NTz.jpg");
+  background-size: 1360px 600px;;
+  height: 600px;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
 .carousel-control-prev,
+.carousel-control-next {
+  align-items:stretch;
+  top: 300px;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+
+  body {
+    background-repeat: no-repeat;
+  }
+
+  video {
+    width: 700px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  em {
+    font-size: 1.7rem;
+  }
+
+  #primeira-secao {
+    text-align: center;
+  }
+
+  #terceira-secao {
+    height: 700px;
+    background-size: 1360px 700px;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+
+  .logowiz {
+    width: 700px;
+  }
+
+  .feature-title {
+    font-size: 2rem;
+  }
+
+  .icon-face {
+    font-size: 50px;
+  }
+
+  .icon-linkedin {
+    font-size: 50px;
+  }
+
+  .icon-insta {
+    font-size: 50px;
+  }
+
+  .icon-email {
+    font-size: 50px;
+  }
+
+  .testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-control-prev,
   .carousel-control-next {
     align-items:stretch;
     top: 350px;
   }
+
+  .copyright {
+    font-size: 2rem;
+  }
+}
