@@ -140,10 +140,14 @@ em {
   margin: 20px;
 }
 
-.carousel-control-prev,
+.carousel-control-prev {
+  align-items: stretch;
+  top: 350px;
+}
+
 .carousel-control-next {
-  align-items:stretch;
-  top: 300px;
+  align-items: stretch;
+  top: 350px;
 }
 
 /* Footer Section */
@@ -223,7 +227,11 @@ em {
     margin: 20px;
   }
 
-  .carousel-control-prev,
+  .carousel-control-prev {
+    align-items:stretch;
+    top: 350px;
+  }
+
   .carousel-control-next {
     align-items:stretch;
     top: 350px;
